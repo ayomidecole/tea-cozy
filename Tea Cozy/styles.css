@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0; /* Reset default margin */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 69px;
+    top: 0; /* Add top: 0 to ensure the header sticks to the top */
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black; /* Add background color to cover the whole width */
+    z-index: 1000; /* Add a z-index to ensure the header is above other content */
+}
+
+.brand {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+.nav-links ul {
+    display: flex;
+    text-decoration: underline;
+}
+
+.nav-links ul:hover {
+    display: flex;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-links {
+    margin-right: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+.mission {
+    margin: 0 auto; /* Center the div horizontally */
+    padding-top: 69px;
+    width: 1200px;
+    background-image: url(./images/img-mission-background.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 700px; /* Set the height to 700px */
+    margin-bottom: 50px;
+}
+
+.mission-text{
+    background-color: black;
+    width: 100%;
+}
+
+.tom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    width: 100%; /* Make sure it spans the full width */
+    max-width: 1000px; /* Set a maximum width */
+    margin-bottom: 100px;
+}
+
+.tom-images{
+    display: flex;
+}
+
+.tom-image{
+    height: 200px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.tom-image img{
+    height: 200px;
+    width: 300px;
+}
+
+.location {
+    margin: 0 auto; /* Center the div horizontally */
+    padding-top: 69px;
+    width: 1200px;
+    background-image: url(./images/img-locations-background.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 700px; /* Set the height to 700px */
+    margin-bottom: 10px;
+}
+
+.box-container{
+    display: flex;
+}
+
+.box{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-right: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    height: 200px;
+    text-align: center;
+}
+
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}
